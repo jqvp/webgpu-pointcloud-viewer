@@ -1,0 +1,47 @@
+{
+  "name": "webgpu-pointcloud-viewer",
+  "author": "jqvp",
+  "description": "A pointcloud viewer based on WebGPU",
+  "version": "0.1.0",
+  "license": "LGPL-3.0-or-later",
+  "keywords": [
+    "PROJECTNAME"
+  ],
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "start": "node .",
+    "format": "eslint --fix --ext .ts ./src"
+  },
+  "homepage": "https://github.com/jqvp/webgpu-pointcloud-viewer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jqvp/webgpu-pointcloud-viewer.git",
+    "directory": "webgpu-pointcloud-viewer"
+  },
+  "bugs": {
+    "url": "https://github.com/jqvp/webgpu-pointcloud-viewer/issues"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "@webgpu/types": "^0.1.40",
+    "esbuild": "^0.20.2",
+    "eslint": "^8.56.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsdoc": "^48.0.6",
+    "tsc-alias": "^1.8.8",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.3"
+  },
+  "config": {
+    "engine-strict": true
+  },
+  "dependencies": {
+    "wgpu-matrix": "^2.8.0"
+  }
+}
